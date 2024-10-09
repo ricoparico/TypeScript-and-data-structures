@@ -1,0 +1,12 @@
+<hr>
+<p>List of Product Sold</p>
+
+<input type="text" [(ngModel)]="product"/>
+
+<button (click)="addProducts()">Add Product</button>
+
+<ul>
+    <li *ngFor="let product of productList">
+        {{ product }}
+    </li>
+</ul>
