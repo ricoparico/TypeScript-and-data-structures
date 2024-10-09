@@ -17,3 +17,6 @@ button {
   button:hover {
     background-color: #ffd000;
   }
+  li{
+    margin-bottom: 15px;
+    }

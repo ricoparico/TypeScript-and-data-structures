@@ -15,4 +15,7 @@ export class ProductlistComponent {
       this.product="";
     }
   }
+  removeItem(index: number) {
+    this.productList.splice(index, 1);
+  }
 }

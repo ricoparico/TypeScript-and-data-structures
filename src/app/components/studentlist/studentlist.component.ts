@@ -15,4 +15,8 @@ export class StudentlistComponent {
       this.name = ''; 
     }
   }
+  removeItem(index: number) {
+    this.studentList.splice(index, 1);
+  
+}
 }

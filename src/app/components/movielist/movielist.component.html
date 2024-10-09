@@ -6,7 +6,7 @@
 <button (click)="addMovies()">Add Movie</button>
 
 <ul>
-    <li *ngFor="let movie of movieList">
-        {{ movie }}
+    <li *ngFor="let movie of movieList; let m = index">
+        {{ movie }} <button (click)="removeItem(m)">Remove</button>
     </li>
 </ul>

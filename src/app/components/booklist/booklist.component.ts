@@ -15,4 +15,7 @@ export class BooklistComponent {
       this.book="";
     }
   }
+  removeItem(index: number) {
+    this.bookList.splice(index, 1);
+  }
 }

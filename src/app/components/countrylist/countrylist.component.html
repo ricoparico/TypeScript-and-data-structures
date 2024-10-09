@@ -1,0 +1,12 @@
+<hr>
+<p>Country List</p>
+
+<input type="text" [(ngModel)]="country"/>
+
+<button (click)="addCountries()">Add Country</button>
+
+<ul>
+    <li *ngFor="let country of countryList; let c = index">
+        {{ country }} <button (click)="removeItem(c)">Remove</button>
+    </li>
+</ul>

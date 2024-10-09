@@ -15,4 +15,7 @@ export class CitylistComponent {
       this.city="";
     }
   }
+  removeItem(index: number) {
+    this.cityList.splice(index, 1);
+  }
 }

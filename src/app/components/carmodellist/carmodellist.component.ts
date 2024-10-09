@@ -15,4 +15,7 @@ export class CarmodellistComponent {
       this.car="";
     }
   }
+  removeItem(index: number) {
+    this.carModelList.splice(index, 1);
+  }
 }

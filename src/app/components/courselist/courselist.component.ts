@@ -15,4 +15,7 @@ export class CourselistComponent {
         this.course="";
       }
     }
+    removeItem(index: number) {
+      this.courseList.splice(index, 1);
+    }
 }

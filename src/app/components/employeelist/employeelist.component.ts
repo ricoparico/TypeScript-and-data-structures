@@ -15,4 +15,7 @@ export class EmployeelistComponent {
       this.name = ''; 
     }
   }
+  removeItem(index: number) {
+    this.employeeList.splice(index, 1);
+  }
 }

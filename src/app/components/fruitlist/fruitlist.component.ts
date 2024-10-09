@@ -15,4 +15,7 @@ export class FruitlistComponent {
       this.fruit = ''; 
     }
   }
+  removeItem(index: number) {
+    this.fruitList.splice(index, 1);
+  }
 }

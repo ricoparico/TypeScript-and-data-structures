@@ -6,7 +6,7 @@
 <button (click)="addCities()">Add City</button>
 
 <ul>
-    <li *ngFor="let city of cityList">
-        {{ city }}
+    <li *ngFor="let city of cityList; let c =index">
+        {{ city }} <button (click)="removeItem(c)">Remove</button>
     </li>
 </ul>

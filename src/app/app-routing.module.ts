@@ -11,6 +11,7 @@ import { MovielistComponent } from './components/movielist/movielist.component';
 import { CarmodellistComponent } from './components/carmodellist/carmodellist.component';
 import { ProductlistComponent } from './components/productlist/productlist.component';
 import { SubjectlistComponent } from './components/subjectlist/subjectlist.component';
+import { CountrylistComponent } from './components/countrylist/countrylist.component';
 
 const routes: Routes = [
   {path: "", component: LandingpageComponent},
@@ -23,7 +24,8 @@ const routes: Routes = [
   {path: "movielist", component: MovielistComponent},
   {path: "carmodellist", component: CarmodellistComponent},
   {path: "productlist", component: ProductlistComponent},
-  {path: "subjectlist", component: SubjectlistComponent}
+  {path: "subjectlist", component: SubjectlistComponent},
+  {path: "countrylist", component: CountrylistComponent}
 ];
 
 @NgModule({

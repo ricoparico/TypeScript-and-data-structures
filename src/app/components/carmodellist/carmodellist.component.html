@@ -6,7 +6,7 @@
 <button (click)="addCarModels()">Add Car Model</button>
 
 <ul>
-    <li *ngFor="let car of carModelList">
-        {{ car }}
+    <li *ngFor="let car of carModelList; let c = index">
+        {{ car }} <button (click)="removeItem(c)">Remove</button>
     </li>
 </ul>

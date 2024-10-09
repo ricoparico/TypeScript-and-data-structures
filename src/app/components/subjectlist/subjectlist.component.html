@@ -6,7 +6,7 @@
 <button (click)="addSubjects()">Add Subject</button>
 
 <ul>
-    <li *ngFor="let subject of subjectList">
-        {{ subject }}
+    <li *ngFor="let subject of subjectList; let sub = index">
+        {{ subject }} <button (click)="removeItem(sub)">Remove</button>
     </li>
 </ul>

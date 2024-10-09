@@ -15,4 +15,7 @@ export class MovielistComponent {
       this.movie="";
     }
   }
+  removeItem(index: number) {
+    this.movieList.splice(index, 1);
+  }
 }

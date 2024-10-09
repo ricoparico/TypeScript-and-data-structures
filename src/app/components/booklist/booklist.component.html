@@ -6,7 +6,7 @@
 <button (click)="addBooks()">Add Book</button>
 
 <ul>
-    <li *ngFor="let book of bookList">
-        {{ book }}
+    <li *ngFor="let book of bookList; let b = index">
+        {{ book }} <button class="btn btn-remove" (click)="removeItem(b)">Remove</button>
     </li>
 </ul>
