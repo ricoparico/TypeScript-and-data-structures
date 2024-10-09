@@ -18,6 +18,7 @@ import { CarmodellistComponent } from './components/carmodellist/carmodellist.co
 import { ProductlistComponent } from './components/productlist/productlist.component';
 import { SubjectlistComponent } from './components/subjectlist/subjectlist.component';
 import { CountrylistComponent } from './components/countrylist/countrylist.component';
+import { SportslistComponent } from './components/sportslist/sportslist.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { CountrylistComponent } from './components/countrylist/countrylist.compo
     CarmodellistComponent,
     ProductlistComponent,
     SubjectlistComponent,
-    CountrylistComponent
+    CountrylistComponent,
+    SportslistComponent
   ],
   imports: [
     BrowserModule,
