@@ -1,0 +1,12 @@
+<hr>
+<p>Tool List</p>
+
+<input type="text" [(ngModel)]="tool"/>
+
+<button (click)="addTools()">Add Tool</button>
+
+<ul>
+    <li *ngFor="let tool of toolList; let t = index">
+        {{ tool }} <button (click)="removeItem(t)">Remove</button>
+    </li>
+</ul>
