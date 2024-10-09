@@ -9,13 +9,15 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LandingpageComponent } from './components/landingpage/landingpage.component';
 import { StudentlistComponent } from './components/studentlist/studentlist.component';
 import { EmployeelistComponent } from './components/employeelist/employeelist.component';
+import { FruitlistComponent } from './components/fruitlist/fruitlist.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingpageComponent,
     StudentlistComponent,
-    EmployeelistComponent
+    EmployeelistComponent,
+    FruitlistComponent
   ],
   imports: [
     BrowserModule,

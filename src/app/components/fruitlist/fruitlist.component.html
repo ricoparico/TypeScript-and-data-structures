@@ -1,0 +1,12 @@
+<hr>
+<p>Fruit List</p>
+
+<input type="text" [(ngModel)]="fruit" />
+
+<button (click)="addFruits()">Add Fruit</button>
+
+<ul>
+  <li *ngFor="let fruit of fruitList">
+    {{ fruit }}
+  </li>
+</ul>
