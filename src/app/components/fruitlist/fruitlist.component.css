@@ -17,7 +17,3 @@ button {
   button:hover {
     background-color: #ffd000;
   }
-  
-  a, button {
-    margin-bottom: 10px; 
-  }

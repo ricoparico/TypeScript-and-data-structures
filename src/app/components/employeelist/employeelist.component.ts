@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './employeelist.component.css'
 })
 export class EmployeelistComponent {
-  employeeList: string[] = []; 
+  employeeList: string[] = ["Rico", "Sam"]; 
   name: string = '';
 
   addEmployees() {

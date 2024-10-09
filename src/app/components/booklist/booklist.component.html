@@ -1,0 +1,12 @@
+<hr>
+<p>Book List</p>
+
+<input type="text" [(ngModel)]="book"/>
+
+<button (click)="addBooks()">Add Book</button>
+
+<ul>
+    <li *ngFor="let book of bookList">
+        {{ book }}
+    </li>
+</ul>

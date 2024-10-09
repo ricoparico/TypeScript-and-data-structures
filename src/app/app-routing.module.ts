@@ -5,13 +5,15 @@ import { StudentlistComponent } from './components/studentlist/studentlist.compo
 import { EmployeelistComponent } from './components/employeelist/employeelist.component';
 import { FruitlistComponent } from './components/fruitlist/fruitlist.component';
 import { CourselistComponent } from './components/courselist/courselist.component';
+import { BooklistComponent } from './components/booklist/booklist.component';
 
 const routes: Routes = [
   {path: "", component: LandingpageComponent},
   {path: "studentlist", component: StudentlistComponent},
   {path: "employeelist", component: EmployeelistComponent},
   {path: "fruitlist", component: FruitlistComponent},
-  {path: "courselist", component: CourselistComponent}
+  {path: "courselist", component: CourselistComponent},
+  {path: "booklist", component: BooklistComponent}
 ];
 
 @NgModule({

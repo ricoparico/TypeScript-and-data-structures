@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './courselist.component.css'
 })
 export class CourselistComponent {
-   courseList: string[]=[];
+   courseList: string[]=["BSIT", "BSED"];
     course: string="";
 
     addCourses(){
