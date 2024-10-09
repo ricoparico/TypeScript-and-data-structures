@@ -10,6 +10,7 @@ import { LandingpageComponent } from './components/landingpage/landingpage.compo
 import { StudentlistComponent } from './components/studentlist/studentlist.component';
 import { EmployeelistComponent } from './components/employeelist/employeelist.component';
 import { FruitlistComponent } from './components/fruitlist/fruitlist.component';
+import { CourselistComponent } from './components/courselist/courselist.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FruitlistComponent } from './components/fruitlist/fruitlist.component';
     LandingpageComponent,
     StudentlistComponent,
     EmployeelistComponent,
-    FruitlistComponent
+    FruitlistComponent,
+    CourselistComponent
   ],
   imports: [
     BrowserModule,
