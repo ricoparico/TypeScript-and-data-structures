@@ -1,0 +1,12 @@
+<hr>
+<p>Language List</p>
+
+<input type="text" [(ngModel)]="language"/>
+
+<button (click)="addLanguages()">Add Language</button>
+
+<ul>
+    <li *ngFor="let language of languageList; let l = index">
+        {{ language }} <button (click)="removeItem(l)">Remove</button>
+    </li>
+</ul>
