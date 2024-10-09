@@ -1,0 +1,12 @@
+<hr>
+<p>Subject List</p>
+
+<input type="text" [(ngModel)]="subject"/>
+
+<button (click)="addSubjects()">Add Subject</button>
+
+<ul>
+    <li *ngFor="let subject of subjectList">
+        {{ subject }}
+    </li>
+</ul>

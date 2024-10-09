@@ -16,6 +16,7 @@ import { CitylistComponent } from './components/citylist/citylist.component';
 import { MovielistComponent } from './components/movielist/movielist.component';
 import { CarmodellistComponent } from './components/carmodellist/carmodellist.component';
 import { ProductlistComponent } from './components/productlist/productlist.component';
+import { SubjectlistComponent } from './components/subjectlist/subjectlist.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ProductlistComponent } from './components/productlist/productlist.compo
     CitylistComponent,
     MovielistComponent,
     CarmodellistComponent,
-    ProductlistComponent
+    ProductlistComponent,
+    SubjectlistComponent
   ],
   imports: [
     BrowserModule,

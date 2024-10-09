@@ -10,6 +10,7 @@ import { CitylistComponent } from './components/citylist/citylist.component';
 import { MovielistComponent } from './components/movielist/movielist.component';
 import { CarmodellistComponent } from './components/carmodellist/carmodellist.component';
 import { ProductlistComponent } from './components/productlist/productlist.component';
+import { SubjectlistComponent } from './components/subjectlist/subjectlist.component';
 
 const routes: Routes = [
   {path: "", component: LandingpageComponent},
@@ -21,7 +22,8 @@ const routes: Routes = [
   {path: "citylist", component: CitylistComponent},
   {path: "movielist", component: MovielistComponent},
   {path: "carmodellist", component: CarmodellistComponent},
-  {path: "productlist", component: ProductlistComponent}
+  {path: "productlist", component: ProductlistComponent},
+  {path: "subjectlist", component: SubjectlistComponent}
 ];
 
 @NgModule({
