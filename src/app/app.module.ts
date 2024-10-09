@@ -14,6 +14,7 @@ import { CourselistComponent } from './components/courselist/courselist.componen
 import { BooklistComponent } from './components/booklist/booklist.component';
 import { CitylistComponent } from './components/citylist/citylist.component';
 import { MovielistComponent } from './components/movielist/movielist.component';
+import { CarmodellistComponent } from './components/carmodellist/carmodellist.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { MovielistComponent } from './components/movielist/movielist.component';
     CourselistComponent,
     BooklistComponent,
     CitylistComponent,
-    MovielistComponent
+    MovielistComponent,
+    CarmodellistComponent
   ],
   imports: [
     BrowserModule,
