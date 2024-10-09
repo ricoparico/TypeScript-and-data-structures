@@ -12,6 +12,7 @@ import { EmployeelistComponent } from './components/employeelist/employeelist.co
 import { FruitlistComponent } from './components/fruitlist/fruitlist.component';
 import { CourselistComponent } from './components/courselist/courselist.component';
 import { BooklistComponent } from './components/booklist/booklist.component';
+import { CitylistComponent } from './components/citylist/citylist.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { BooklistComponent } from './components/booklist/booklist.component';
     EmployeelistComponent,
     FruitlistComponent,
     CourselistComponent,
-    BooklistComponent
+    BooklistComponent,
+    CitylistComponent
   ],
   imports: [
     BrowserModule,

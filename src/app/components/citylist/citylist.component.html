@@ -1,0 +1,12 @@
+<hr>
+<p>City List</p>
+
+<input type="text" [(ngModel)]="city"/>
+
+<button (click)="addCities()">Add City</button>
+
+<ul>
+    <li *ngFor="let city of cityList">
+        {{ city }}
+    </li>
+</ul>
