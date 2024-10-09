@@ -14,6 +14,7 @@ import { SubjectlistComponent } from './components/subjectlist/subjectlist.compo
 import { CountrylistComponent } from './components/countrylist/countrylist.component';
 import { SportslistComponent } from './components/sportslist/sportslist.component';
 import { VegetablelistComponent } from './components/vegetablelist/vegetablelist.component';
+import { AnimallistComponent } from './components/animallist/animallist.component';
 
 const routes: Routes = [
   {path: "", component: LandingpageComponent},
@@ -29,7 +30,8 @@ const routes: Routes = [
   {path: "subjectlist", component: SubjectlistComponent},
   {path: "countrylist", component: CountrylistComponent},
   {path: "sportslist", component: SportslistComponent},
-  {path: "vegetablelist", component: VegetablelistComponent}
+  {path: "vegetablelist", component: VegetablelistComponent},
+  {path: "animallist", component: AnimallistComponent}
 ];
 
 @NgModule({

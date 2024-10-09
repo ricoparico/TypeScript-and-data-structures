@@ -1,0 +1,12 @@
+<hr>
+<p>Animal List</p>
+
+<input type="text" [(ngModel)]="animal"/>
+
+<button (click)="addAnimals()">Add Animal</button>
+
+<ul>
+    <li *ngFor="let animal of animalList; let a = index">
+        {{ animal }} <button (click)="removeItem(a)">Remove</button>
+    </li>
+</ul>
