@@ -1,0 +1,12 @@
+<hr>
+<p>Employee List</p>
+
+<input type="text" [(ngModel)]="name" />
+
+<button (click)="addEmployees()">Add Employee</button>
+
+<ul>
+  <li *ngFor="let name of employeeList">
+    {{ name }}
+  </li>
+</ul>
