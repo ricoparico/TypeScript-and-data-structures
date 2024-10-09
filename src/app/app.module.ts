@@ -13,6 +13,7 @@ import { FruitlistComponent } from './components/fruitlist/fruitlist.component';
 import { CourselistComponent } from './components/courselist/courselist.component';
 import { BooklistComponent } from './components/booklist/booklist.component';
 import { CitylistComponent } from './components/citylist/citylist.component';
+import { MovielistComponent } from './components/movielist/movielist.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CitylistComponent } from './components/citylist/citylist.component';
     FruitlistComponent,
     CourselistComponent,
     BooklistComponent,
-    CitylistComponent
+    CitylistComponent,
+    MovielistComponent
   ],
   imports: [
     BrowserModule,

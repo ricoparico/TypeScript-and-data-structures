@@ -1,0 +1,12 @@
+<hr>
+<p>Movie List</p>
+
+<input type="text" [(ngModel)]="movie"/>
+
+<button (click)="addMovies()">Add Movie</button>
+
+<ul>
+    <li *ngFor="let movie of movieList">
+        {{ movie }}
+    </li>
+</ul>

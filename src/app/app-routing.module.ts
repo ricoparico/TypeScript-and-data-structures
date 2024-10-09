@@ -7,6 +7,7 @@ import { FruitlistComponent } from './components/fruitlist/fruitlist.component';
 import { CourselistComponent } from './components/courselist/courselist.component';
 import { BooklistComponent } from './components/booklist/booklist.component';
 import { CitylistComponent } from './components/citylist/citylist.component';
+import { MovielistComponent } from './components/movielist/movielist.component';
 
 const routes: Routes = [
   {path: "", component: LandingpageComponent},
@@ -15,7 +16,8 @@ const routes: Routes = [
   {path: "fruitlist", component: FruitlistComponent},
   {path: "courselist", component: CourselistComponent},
   {path: "booklist", component: BooklistComponent},
-  {path: "citylist", component: CitylistComponent}
+  {path: "citylist", component: CitylistComponent},
+  {path: "movielist", component: MovielistComponent}
 ];
 
 @NgModule({
