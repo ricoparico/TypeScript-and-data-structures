@@ -1,0 +1,12 @@
+<hr>
+<p>Software List</p>
+
+<input type="text" [(ngModel)]="software"/>
+
+<button (click)="addSoftwares()">Add Software</button>
+
+<ul>
+    <li *ngFor="let software of softwareList; let s = index">
+        {{ software }} <button (click)="removeItem(s)">Remove</button>
+    </li>
+</ul>

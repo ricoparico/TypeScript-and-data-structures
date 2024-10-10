@@ -18,6 +18,7 @@ import { AnimallistComponent } from './components/animallist/animallist.componen
 import { ToollistComponent } from './components/toollist/toollist.component';
 import { LanguagelistComponent } from './components/languagelist/languagelist.component';
 import { GamelistComponent } from './components/gamelist/gamelist.component';
+import { SoftwarelistComponent } from './components/softwarelist/softwarelist.component';
 
 const routes: Routes = [
   {path: "", component: LandingpageComponent},
@@ -37,7 +38,8 @@ const routes: Routes = [
   {path: "animallist", component: AnimallistComponent},
   {path: "toollist", component: ToollistComponent},
   {path: "languagelist", component: LanguagelistComponent},
-  {path: "gamelist", component: GamelistComponent}
+  {path: "gamelist", component: GamelistComponent},
+  {path: "softwarelist", component: SoftwarelistComponent}
 ];
 
 @NgModule({
