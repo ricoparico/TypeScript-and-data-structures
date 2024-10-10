@@ -1,0 +1,12 @@
+<hr>
+<p>Food Menu</p>
+
+<input type="text" [(ngModel)]="food"/>
+
+<button (click)="addFoods()">Add Menu</button>
+
+<ul>
+    <li *ngFor="let food of foodMenu; let p = index">
+        {{ food }} <button (click)="removeItem(p)">Remove</button>
+    </li>
+</ul>
