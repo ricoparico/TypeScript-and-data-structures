@@ -1,0 +1,12 @@
+<hr>
+<p>Flower List</p>
+
+<input type="text" [(ngModel)]="flower"/>
+
+<button (click)="addFlowers()">Add Flower</button>
+
+<ul>
+    <li *ngFor="let flower of flowerList; let s = index">
+        {{ flower }} <button (click)="removeItem(s)">Remove</button>
+    </li>
+</ul>

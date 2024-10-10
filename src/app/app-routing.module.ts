@@ -1,4 +1,4 @@
-import { Component, NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LandingpageComponent } from './components/landingpage/landingpage.component';
 import { StudentlistComponent } from './components/studentlist/studentlist.component';
@@ -27,6 +27,7 @@ import { ClassroomlistComponent } from './components/classroomlist/classroomlist
 import { InventorylistComponent } from './components/inventorylist/inventorylist.component';
 import { LecturelistComponent } from './components/lecturelist/lecturelist.component';
 import { StationerylistComponent } from './components/stationerylist/stationerylist.component';
+import { FlowerlistComponent } from './components/flowerlist/flowerlist.component';
 
 const routes: Routes = [
   {path: "", component: LandingpageComponent},
@@ -55,7 +56,8 @@ const routes: Routes = [
   {path: "classroomlist", component: ClassroomlistComponent},
   {path: "inventorylist", component: InventorylistComponent},
   {path: "lecturelist", component: LecturelistComponent},
-  {path: "stationerylist",  component: StationerylistComponent}
+  {path: "stationerylist",  component: StationerylistComponent},
+  {path: "flowerlist", component: FlowerlistComponent}
 ];
 
 @NgModule({

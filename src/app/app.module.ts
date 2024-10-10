@@ -33,6 +33,7 @@ import { ClassroomlistComponent } from './components/classroomlist/classroomlist
 import { InventorylistComponent } from './components/inventorylist/inventorylist.component';
 import { LecturelistComponent } from './components/lecturelist/lecturelist.component';
 import { StationerylistComponent } from './components/stationerylist/stationerylist.component';
+import { FlowerlistComponent } from './components/flowerlist/flowerlist.component';
 
 @NgModule({
   declarations: [
@@ -63,7 +64,8 @@ import { StationerylistComponent } from './components/stationerylist/stationeryl
     ClassroomlistComponent,
     InventorylistComponent,
     LecturelistComponent,
-    StationerylistComponent
+    StationerylistComponent,
+    FlowerlistComponent
   ],
   imports: [
     BrowserModule,
