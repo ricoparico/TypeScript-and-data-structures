@@ -1,0 +1,12 @@
+<hr>
+<p>Grocery List</p>
+
+<input type="text" [(ngModel)]="grocery"/>
+
+<button (click)="addGroceries()">Add Grocery</button>
+
+<ul>
+    <li *ngFor="let grocery of groceryList; let g = index">
+        {{ grocery }} <button (click)="removeItem(g)">Remove</button>
+    </li>
+</ul>
