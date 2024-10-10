@@ -23,6 +23,7 @@ import { VegetablelistComponent } from './components/vegetablelist/vegetablelist
 import { AnimallistComponent } from './components/animallist/animallist.component';
 import { ToollistComponent } from './components/toollist/toollist.component';
 import { LanguagelistComponent } from './components/languagelist/languagelist.component';
+import { GamelistComponent } from './components/gamelist/gamelist.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { LanguagelistComponent } from './components/languagelist/languagelist.co
     VegetablelistComponent,
     AnimallistComponent,
     ToollistComponent,
-    LanguagelistComponent
+    LanguagelistComponent,
+    GamelistComponent
   ],
   imports: [
     BrowserModule,
