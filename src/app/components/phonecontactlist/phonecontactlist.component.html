@@ -1,0 +1,12 @@
+<hr>
+<p>Phone Contact List</p>
+
+<input type="text" [(ngModel)]="phone"/>
+
+<button (click)="addPhones()">Add Contact</button>
+
+<ul>
+    <li *ngFor="let phone of phoneList; let p = index">
+        {{ phone }} <button (click)="removeItem(p)">Remove</button>
+    </li>
+</ul>
