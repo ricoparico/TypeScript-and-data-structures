@@ -26,6 +26,7 @@ import { LanguagelistComponent } from './components/languagelist/languagelist.co
 import { GamelistComponent } from './components/gamelist/gamelist.component';
 import { SoftwarelistComponent } from './components/softwarelist/softwarelist.component';
 import { PhonecontactlistComponent } from './components/phonecontactlist/phonecontactlist.component';
+import { MusicplaylistComponent } from './components/musicplaylist/musicplaylist.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { PhonecontactlistComponent } from './components/phonecontactlist/phoneco
     LanguagelistComponent,
     GamelistComponent,
     SoftwarelistComponent,
-    PhonecontactlistComponent
+    PhonecontactlistComponent,
+    MusicplaylistComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,12 @@
+<hr>
+<p>Music Playlist</p>
+
+<input type="text" [(ngModel)]="music"/>
+
+<button (click)="addMusics()">Add Song</button>
+
+<ul>
+    <li *ngFor="let music of musicList; let p = index">
+        {{ music }} <button (click)="removeItem(p)">Remove</button>
+    </li>
+</ul>
