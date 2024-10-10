@@ -1,0 +1,12 @@
+<hr>
+<p>Inventory List</p>
+
+<input type="text" [(ngModel)]="inventory"/>
+
+<button (click)="addInvents()">Add Item</button>
+
+<ul>
+    <li *ngFor="let inventory of inventoryList; let c = index">
+        {{ inventory }} <button (click)="removeItem(c)">Remove</button>
+    </li>
+</ul>
