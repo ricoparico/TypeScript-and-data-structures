@@ -36,6 +36,7 @@ import { StationerylistComponent } from './components/stationerylist/stationeryl
 import { FlowerlistComponent } from './components/flowerlist/flowerlist.component';
 import { DestinationlistComponent } from './components/destinationlist/destinationlist.component';
 import { LaptoplistComponent } from './components/laptoplist/laptoplist.component';
+import { LaptopspecificationslistComponent } from './components/laptopspecificationslist/laptopspecificationslist.component';
 
 @NgModule({
   declarations: [
@@ -69,7 +70,8 @@ import { LaptoplistComponent } from './components/laptoplist/laptoplist.componen
     StationerylistComponent,
     FlowerlistComponent,
     DestinationlistComponent,
-    LaptoplistComponent
+    LaptoplistComponent,
+    LaptopspecificationslistComponent
   ],
   imports: [
     BrowserModule,

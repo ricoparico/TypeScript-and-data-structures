@@ -1,0 +1,12 @@
+<hr>
+<p>Laptop Specifications List</p>
+
+<input type="text" [(ngModel)]="laptopspec"/>
+
+<button (click)="addLaptopSpecs()">Add Specs</button>
+
+<ul>
+    <li *ngFor="let laptopspec of laptopSpecList; let l = index">
+        {{ laptopspec }} <button (click)="removeItem(l)">Remove</button>
+    </li>
+</ul>
