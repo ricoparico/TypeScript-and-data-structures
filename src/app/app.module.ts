@@ -29,6 +29,7 @@ import { PhonecontactlistComponent } from './components/phonecontactlist/phoneco
 import { MusicplaylistComponent } from './components/musicplaylist/musicplaylist.component';
 import { FoodmenuComponent } from './components/foodmenu/foodmenu.component';
 import { GrocerylistComponent } from './components/grocerylist/grocerylist.component';
+import { ClassroomlistComponent } from './components/classroomlist/classroomlist.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +56,8 @@ import { GrocerylistComponent } from './components/grocerylist/grocerylist.compo
     PhonecontactlistComponent,
     MusicplaylistComponent,
     FoodmenuComponent,
-    GrocerylistComponent
+    GrocerylistComponent,
+    ClassroomlistComponent
   ],
   imports: [
     BrowserModule,

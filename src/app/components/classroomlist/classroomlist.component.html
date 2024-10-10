@@ -1,0 +1,12 @@
+<hr>
+<p>Classroom List</p>
+
+<input type="text" [(ngModel)]="class"/>
+
+<button (click)="addClasses()">Add Classroom</button>
+
+<ul>
+    <li *ngFor="let class of classList; let c = index">
+        {{ class }} <button (click)="removeItem(c)">Remove</button>
+    </li>
+</ul>
