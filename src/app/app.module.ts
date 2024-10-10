@@ -31,6 +31,7 @@ import { FoodmenuComponent } from './components/foodmenu/foodmenu.component';
 import { GrocerylistComponent } from './components/grocerylist/grocerylist.component';
 import { ClassroomlistComponent } from './components/classroomlist/classroomlist.component';
 import { InventorylistComponent } from './components/inventorylist/inventorylist.component';
+import { LecturelistComponent } from './components/lecturelist/lecturelist.component';
 
 @NgModule({
   declarations: [
@@ -59,7 +60,8 @@ import { InventorylistComponent } from './components/inventorylist/inventorylist
     FoodmenuComponent,
     GrocerylistComponent,
     ClassroomlistComponent,
-    InventorylistComponent
+    InventorylistComponent,
+    LecturelistComponent
   ],
   imports: [
     BrowserModule,

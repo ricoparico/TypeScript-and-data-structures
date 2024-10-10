@@ -1,0 +1,12 @@
+<hr>
+<p>Lecture List</p>
+
+<input type="text" [(ngModel)]="lecture"/>
+
+<button (click)="addLectures()">Add Item</button>
+
+<ul>
+    <li *ngFor="let lecture of lectureList; let l = index">
+        {{ lecture }} <button (click)="removeItem(l)">Remove</button>
+    </li>
+</ul>
