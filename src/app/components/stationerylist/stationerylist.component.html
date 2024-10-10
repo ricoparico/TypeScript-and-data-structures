@@ -1,0 +1,12 @@
+<hr>
+<p>Stationery List</p>
+
+<input type="text" [(ngModel)]="stationery"/>
+
+<button (click)="addStationeries()">Add Item</button>
+
+<ul>
+    <li *ngFor="let stationery of stationeryList; let s = index">
+        {{ stationery }} <button (click)="removeItem(s)">Remove</button>
+    </li>
+</ul>
