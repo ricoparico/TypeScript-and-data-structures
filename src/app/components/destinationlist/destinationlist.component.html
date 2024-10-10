@@ -1,0 +1,12 @@
+<hr>
+<p>Destination List</p>
+
+<input type="text" [(ngModel)]="destination"/>
+
+<button (click)="addDestinations()">Add Destination</button>
+
+<ul>
+    <li *ngFor="let destination of destinationList; let d = index">
+        {{ destination }} <button (click)="removeItem(d)">Remove</button>
+    </li>
+</ul>
